@@ -18,7 +18,7 @@ export default {
     focus: '0px 0px 0px 1px #7645D9, 0px 0px 0px 4px rgba(118, 69, 217, 0.6)',
     inset: 'inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)',
   },
-  radii: { small: '4px', default: '16px', card: '32px', circle: '50%' },
+  radii: { small: '4px', default: '16px', card: '10px', circle: '50%' },
   zIndices: { dropdown: 10, modal: 100 },
   isDark: true,
   alert: { background: '#1E272E' },

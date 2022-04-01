@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: ${({ theme }) => theme.colors.background};
+    // background-color: ${({ theme }) => theme.colors.background};
+    background-color: #000;
     img {
       height: auto;
       max-width: 100%;
@@ -13,15 +14,15 @@ const GlobalStyle = createGlobalStyle`
     list-style: none; 
   }
 //   #swap-page {
-//       border-radius: 20px !important;
-//       padding: 19px 30px 5px 30px;
-//       font-size: 1rem !important;
-//       box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5) !important;
-//       border: solid 1px transparent !important;
-//       background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #8ACF5F, #48C1EE);
-//       background-origin: border-box !important;
-//       background-clip: content-box, border-box !important;
-//       box-shadow: 2px 1000px 1px #000 inset !important;
+      // border-radius: 20px !important;
+      // padding: 19px 30px 5px 30px;
+      // font-size: 1rem !important;
+      // box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5) !important;
+      // border: solid 1px transparent !important;
+      // background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #8ACF5F, #48C1EE);
+      // background-origin: border-box !important;
+      // background-clip: content-box, border-box !important;
+      // box-shadow: 2px 1000px 1px #000 inset !important;
 //   }
 
 //   .BdHDD {
