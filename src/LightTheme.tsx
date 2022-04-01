@@ -118,7 +118,7 @@ export default {
     gradients: { bubblegum: 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)' },
   },
   card: {
-    background: '#FFFFFF',
+    background: '#000000',
     boxShadow: '0px 2px 10px 4px rgb(147 50 158 / 15%), 0px 1px 1px rgb(147 50 158 / 15%)',
     boxShadowActive: '0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)',
     boxShadowSuccess: '0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)',
