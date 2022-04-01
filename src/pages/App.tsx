@@ -19,8 +19,7 @@ import { RedirectPathToSwapOnly, RedirectToSwap } from './Swap/redirects'
 import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
 import { TranslationsContext } from '../hooks/TranslationsContext'
-
-import Menu from '../components/Menu'
+// import Menu from '../components/Menu'
 
 const AppWrapper = styled.div`
   display: flex;
