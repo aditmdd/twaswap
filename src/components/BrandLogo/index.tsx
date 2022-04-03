@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BrandLogo = (props) => {
+const BrandLogo = () => {
     return (
       <div>
         <img src="https://svgshare.com/i/fuM.svg" alt="Twispad Swap" width={200}/>
