@@ -1,8 +1,3 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import { ButtonMenu, ButtonMenuItem } from '@drivenx/uikit-lib'
-import TranslatedText from '../TranslatedText'
 
 const BrandLogo = (props) => {
     return (
