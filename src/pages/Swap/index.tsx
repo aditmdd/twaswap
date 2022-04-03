@@ -9,6 +9,7 @@ import { AutoColumn } from 'components/Column'
 import ConfirmSwapModal from 'components/swap/ConfirmSwapModal'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
 import CardNav from 'components/CardNav'
+import BrandLogo from 'components/BrandLogo'
 import { AutoRow, RowBetween } from 'components/Row'
 import AdvancedSwapDetailsDropdown from 'components/swap/AdvancedSwapDetailsDropdown'
 import confirmPriceImpactWithoutFee from 'components/swap/confirmPriceImpactWithoutFee'
@@ -285,7 +286,8 @@ const Swap = () => {
         onConfirm={handleConfirmWarning}
       />
       <SafeMoonWarningModal isOpen={transactionWarning.selectedToken === 'SAFEMOON'} onConfirm={handleConfirmWarning} />
-      <CardNav />
+      {/* <CardNav /> */}
+      <BrandLogo />
       <AppBody>
         <Wrapper id="swap-page">
           <ConfirmSwapModal
@@ -302,8 +304,8 @@ const Swap = () => {
             onDismiss={handleConfirmDismiss}
           />
           <PageHeader
-            title={TranslateString(8, 'Exchange')}
-            description={TranslateString(1192, 'Trade tokens in an instant')}
+            title={TranslateString(8, 'Token Swap')}
+            description={TranslateString(1192, 'Easy Trade a Token instantly')}
           />
           <CardBody>
             <AutoColumn gap="md">

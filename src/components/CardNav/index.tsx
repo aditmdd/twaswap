@@ -21,4 +21,5 @@ const Nav = ({ activeIndex = 0 }: { activeIndex?: number }) => (
   </StyledNav>
 )
 
+
 export default Nav
