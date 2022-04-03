@@ -3,7 +3,9 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body {
     // background-color: ${({ theme }) => theme.colors.background};
-    background-color: #000;
+    background-image: url('https://svgshare.com/i/fsp.svg') !important;
+    background-size: cover;
+    background-repeat:repeat;
     img {
       height: auto;
       max-width: 100%;
