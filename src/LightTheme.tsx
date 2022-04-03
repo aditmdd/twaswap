@@ -74,7 +74,7 @@ export default {
       color: '#FFFFFF',
     },
     subtle: {
-      background: '#336a79',
+      background: '#151514',
       backgroundActive: '#336a79D9',
       backgroundHover: '#336a79B3',
       border: 0,
