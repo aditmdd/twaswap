@@ -1,6 +1,6 @@
 describe('Warning', () => {
   beforeEach(() => {
-    cy.visit('#/swap?outputCurrency=0xa6381c6fd8f40a44721ef4f61edc1a8ccca7bf3d')
+    cy.visit('#/swap?outputCurrency=0xcd006a88cfdcfd21149d78cd8b79e85956032036')
   })
 
   // Warning is not displaying in Cypress

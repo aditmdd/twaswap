@@ -106,7 +106,7 @@ export default function TokenWarningModal({
         <AutoColumn gap="lg">
           <AutoRow gap="6px">
             <StyledWarningIcon />
-            <Text color="failure">{TranslateString(1128, 'Swap VIVA for BNB')}</Text>
+            <Text color="failure">{TranslateString(1128, 'Import Token')}</Text>
           </AutoRow>
           {tokens.map((token) => {
             return <TokenWarningCard key={token.address} token={token} />
