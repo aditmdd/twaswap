@@ -58,6 +58,7 @@ const Swap = () => {
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]
   )
+
   const handleConfirmTokenWarning = useCallback(() => {
     setDismissTokenWarning(true)
   }, [])
