@@ -56,9 +56,9 @@ const PageHeader = ({ title, description, children }: PageHeaderProps) => {
         <IconButton variant="text" onClick={onPresentSettings} title="Settings">
           <CogIcon />
         </IconButton>
-        <IconButton variant="text" onClick={onPresentRecentTransactions} title="Recent transactions">
+        {/* <IconButton variant="text" onClick={onPresentRecentTransactions} title="Recent transactions">
           <HistoryIcon />
-        </IconButton>
+        </IconButton> */}
       </Flex>
       {children && <Text mt="16px">{children}</Text>}
     </StyledPageHeader>

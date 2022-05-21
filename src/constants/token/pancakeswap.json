@@ -40,12 +40,12 @@
       "decimals": 18
     },
     {
-      "name": "LP3 Token",
-      "symbol": "LP3",
-      "address": "0xe70b7523f4bffa1f2e88d2ba709afd026030f412",
+      "name": "Twist Protocol",
+      "symbol": "TWP",
+      "address": "0x251ae7b42f19cf9d5b70a6ce4234c243ace34a72",
       "chainId": 97,
       "decimals": 18,
-      "logoURI": "/images/coins/ETH.png"
+      "logoURI": "/images/coins/twp.png"
     },
     {
       "name": "BUSD Token",

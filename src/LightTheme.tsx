@@ -51,7 +51,7 @@ export default {
       borderColorHover: 'currentColor',
       boxShadow: 'none',
       boxShadowActive: 'none',
-      color: '#93329E',
+      color: '#9bf87d',
     },
     text: {
       background: 'transparent',
@@ -135,6 +135,6 @@ export default {
   },
   toggle: { handleBackground: '#FFFFFF' },
   nav: { topBackground: '#93329E', background: '#FFE3FE', hover: '#EEEAF4' },
-  modal: { background: '#000000' },
+  modal: { background: '#000000 !important' },
   radio: { handleBackground: '#FFFFFF' },
 }
