@@ -11,6 +11,10 @@ const GlobalStyle = createGlobalStyle`
       max-width: 100%;
     }
   }
+  
+  .ruoDd{
+    background: #00000090 !important;
+  }
 
   ul {
     list-style: none; 
